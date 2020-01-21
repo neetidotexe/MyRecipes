@@ -1,0 +1,10 @@
+1.I used fragments.
+2.I am using Recycler View to display all recipes item:
+For Recycler view, we create a data class and an Adapter class
+3.Then I used Navigation Component to navigate between varios destinations.For this I created a nav_graph,nav_host and nav_controller.
+4.Now working on overflow menu to add new recipesby user. Creating Android Resource file under "Menu" type
+
+-first create a fragment where we should go when clicked on menu item.
+-add this fragment to nav_graph and give it a ID say "AB"
+-create "MENU" resource type. add menu item in it. give this menu item ID same as "AB" as given to fragment in nav_graph
+-then go to fragment where you want to add overflow menu and write code to add that menu.

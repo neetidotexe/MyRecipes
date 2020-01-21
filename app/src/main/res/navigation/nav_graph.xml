@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/recipeListFragment">
+
+    <fragment android:id="@+id/recipeListFragment" android:name="com.example.recipes.RecyclerView.RecipeListFragment"
+              android:label="fragment_recipe_list" tools:layout="@layout/fragment_recipe_list">
+        <action android:id="@+id/action_recipeListFragment_to_cakeRecipeFragment"
+                app:destination="@id/cakeRecipeFragment" app:enterAnim="@anim/nav_default_enter_anim"/>
+        <action android:id="@+id/action_recipeListFragment_to_iceCreamRecipeFragment"
+                app:destination="@+id/iceCreamRecipeFragment" app:enterAnim="@anim/nav_default_enter_anim"/>
+    </fragment>
+
+    <fragment android:id="@+id/cakeRecipeFragment" android:name="com.example.recipes.NavigationComp.CakeRecipeFragment"
+              android:label="fragment_cake_recipe" tools:layout="@layout/fragment_cake_recipe"/>
+    <fragment android:id="@+id/iceCreamRecipeFragment" android:name="com.example.recipes.NavigationComp.IceCreamRecipeFragment"
+              android:label="fragment_ice_cream_recipe" tools:layout="@layout/fragment_ice_cream_recipe"/>
+    <fragment android:id="@+id/addNewRecipeFragment"
+              android:name="com.example.recipes.NavigationComp.AddNewRecipeFragment"
+              android:label="AddNewRecipeFragment"/>
+    <fragment android:id="@+id/showAddedRecipesFragment"
+              android:name="com.example.recipes.NavigationComp.ShowAddedRecipesFragment"
+              android:label="fragment_show_added_recipes" tools:layout="@layout/fragment_show_added_recipes"/>
+</navigation>

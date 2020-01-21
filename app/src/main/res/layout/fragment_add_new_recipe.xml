@@ -1,0 +1,57 @@
+<RelativeLayout
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_recipeNameHeader"
+                android:layout_marginTop="8dp"
+                android:text="Recipe Name:"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+        <EditText android:layout_width="387dp"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/text_recipeName"
+                  android:layout_marginTop="10dp"
+                  android:text=""
+                  android:textStyle="bold"
+                  android:textSize="30sp"
+                  android:background="@android:color/holo_orange_light"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_recipeDescHeader"
+                android:layout_marginTop="20dp"
+                android:text="Recipe:"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+        <EditText android:layout_width="384dp"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/text_recipeDesc"
+                  android:layout_marginTop="30dp"
+                  android:text=""
+                  android:textStyle="bold"
+                  android:textSize="30dp"
+                  android:background="@android:color/holo_orange_light"/>
+        <Button
+                android:text="Submit Recipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Button_submitRecipe"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="50dp"
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -21,14 +21,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="162dp"
                     android:id="@+id/image_dishPic"
-                    card_view:srcCompat="@drawable/cake"/>
-
-            <TextView
+                    card_view:srcCompat="@drawable/cake"
+                    android:scaleType="centerCrop"/>
+            <Button
+                    android:text="CAKE"
                     android:layout_width="match_parent"
-                    android:layout_height="58dp"
-                    android:id="@+id/text_dishName" tools:text="idli" android:textSize="36sp"
-                    android:textAlignment="center" android:fontFamily="sans-serif-smallcaps"
-                    android:background="#FFC107" android:textColor="@android:color/holo_green_dark"/>
+                    android:layout_height="wrap_content"
+                    android:id="@+id/button_dishName"
+                    android:textAlignment="center"
+                    android:background="@android:color/holo_orange_light"
+                    android:tooltipText="View Recipe" android:textColor="@android:color/holo_green_dark"
+                    android:textSize="36sp"/>
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

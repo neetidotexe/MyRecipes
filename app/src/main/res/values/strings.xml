@@ -3,4 +3,43 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cake_recipe">
+        Ingredients Of Vanilla Cake\n
+        1 Cup Plain Flour\n
+        1 tsp Baking Powder\n
+        1/4 Cup Castor Sugar\n
+        1/4 Cup Butter\n
+        1 Cup Milk\n
+        1 tsp Vanilla Essence\n
+        1 tsp Vinegar\n\n
+        Recipe\n
+        1.Take maida in a seive, add baking powder to it and transfer to a bowl.\n
+        2.In another bowl take castor sugar, add butter to it.\n
+        3.Whisk them well.\n
+        4.Add maida to the whisked castor sugar. Mix well.\n
+        5.Add half cup of milk to the bowl and whisk again.\n
+        6.Add vanilla essence to the whisked mixture.\n
+        7.Add half cup of milk to it and whisk again.\n
+        8.Put vinegar and whisk some more.\n
+        9.Pour the prepared cake batter in a mould and bake at 180 degree celsius for 20 minutes.\n
+        10.Take out the your baked Eggless Vanilla Cake and cut into small slices. Serve.\n
+    </string>
+
+    <string name="icecream_recipe">
+        Ingredients Of Homemade Vanilla Ice Cream\n
+        2 Cup Milk\n
+        1 Cup Sugar\n
+        2 Tbsp Milk Powder\n
+        2 Tbsp Hot Milk\n
+        1 tsp Vanilla Essence\n\n
+        Recipe\n
+        1.Take milk in a pan and boil it while stirring along.\n
+        2.Add sugar and stir well to completely dissolve with the milk.\n
+        3.Take a separate small bowl of hot milk and add milk powder.\n
+        4.Pour the milk powder mixture in the pan of sugared milk.\n
+        5.Stir them well. Boil it till the milk thickens.\n
+        6.Keep it aside to cool down completely.\n
+        7.After it has cool down, add vanilla essence to it and stir to completely dissolve with the milk.\n
+        8.Cover the bowl and keep it to freeze for about 4 hours.\n
+    </string>
 </resources>

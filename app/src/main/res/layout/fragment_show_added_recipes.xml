@@ -3,14 +3,15 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context=".RecyclerView.RecipeListFragment">
+             tools:context=".NavigationComp.ShowAddedRecipesFragment">
 
 
     <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/recyclerView"
+            android:id="@+id/recyclerView_showAddedRecipe"
             android:scrollbars="vertical"
             android:scrollbarStyle="insideInset"/>
 
 </RelativeLayout>
+
