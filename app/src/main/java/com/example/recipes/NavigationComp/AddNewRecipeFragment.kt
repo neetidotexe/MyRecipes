@@ -1,7 +1,5 @@
 package com.example.recipes.NavigationComp
 
-import android.content.Context
-import android.net.Uri
 import android.os.AsyncTask
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,14 +7,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProviders
+import androidx.navigation.fragment.findNavController
+import androidx.navigation.ui.NavigationUI
 
 import com.example.recipes.R
 import com.example.recipes.database.Recipes
 import com.example.recipes.viewModel.RecipeViewModel
 import kotlinx.android.synthetic.main.fragment_add_new_recipe.*
-
-
 
 class AddNewRecipeFragment : Fragment() {
 
@@ -40,7 +39,17 @@ class AddNewRecipeFragment : Fragment() {
             val recipeDescription = text_recipeDesc.text.toString().trim()
 
             val recipe = Recipes(recipeName, recipeDescription)
-            saveRecipe(recipe)
+
+            if(recipeName.isEmpty() || recipeDescription.isEmpty()) {
+                Toast.makeText(activity,"Recipe Name and Recipe Description both are necessary",Toast.LENGTH_LONG).show()
+            }
+            else{
+                saveRecipe(recipe)
+            }
+
+            text_recipeName.requestFocus()
+            text_recipeName.setText("")
+            text_recipeDesc.setText("")
         }
     }
 

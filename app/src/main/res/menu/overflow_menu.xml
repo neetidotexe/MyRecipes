@@ -3,4 +3,5 @@
 
     <item android:title="Add new Recipe" android:id="@+id/addNewRecipeFragment"/>
     <item android:title="Show Added Recipes" android:id="@+id/showAddedRecipesFragment"/>
+    <item android:title="Delete Recipe" android:id="@+id/deleteRecipeFragment"/>
 </menu>

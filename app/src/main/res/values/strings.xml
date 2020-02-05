@@ -3,43 +3,126 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="cake_recipe">
-        Ingredients Of Vanilla Cake\n
-        1 Cup Plain Flour\n
-        1 tsp Baking Powder\n
-        1/4 Cup Castor Sugar\n
-        1/4 Cup Butter\n
-        1 Cup Milk\n
-        1 tsp Vanilla Essence\n
-        1 tsp Vinegar\n\n
-        Recipe\n
-        1.Take maida in a seive, add baking powder to it and transfer to a bowl.\n
-        2.In another bowl take castor sugar, add butter to it.\n
-        3.Whisk them well.\n
-        4.Add maida to the whisked castor sugar. Mix well.\n
-        5.Add half cup of milk to the bowl and whisk again.\n
-        6.Add vanilla essence to the whisked mixture.\n
-        7.Add half cup of milk to it and whisk again.\n
-        8.Put vinegar and whisk some more.\n
-        9.Pour the prepared cake batter in a mould and bake at 180 degree celsius for 20 minutes.\n
-        10.Take out the your baked Eggless Vanilla Cake and cut into small slices. Serve.\n
+    <string name="fruit_custard">
+        Ingredients for Fruit Custard\n
+        1L milk\n
+        2 tbsp custard powder\n
+        4 tsp sugar\n
+        2 tsp Water\n
+        1 apple,1 small banana chopped\n
+        1/2 bowl pomegranate\n\n
+
+        1.Boil milk in a pan.\n
+        2.In a small bowl put custard powder and add water and mix.\n
+        3.Add the mixture to boiled milk.\n
+        4.Keep whisking the milk thoroughly to avoid forming of lumps.\n
+        5.Boil the milk and custard powder mixture till it get thickens up.\n
+        6.Add chopped apple, banana and pomegranates to the custard.Fruit Custard is ready.\n
     </string>
 
-    <string name="icecream_recipe">
-        Ingredients Of Homemade Vanilla Ice Cream\n
-        2 Cup Milk\n
-        1 Cup Sugar\n
-        2 Tbsp Milk Powder\n
-        2 Tbsp Hot Milk\n
-        1 tsp Vanilla Essence\n\n
-        Recipe\n
-        1.Take milk in a pan and boil it while stirring along.\n
-        2.Add sugar and stir well to completely dissolve with the milk.\n
-        3.Take a separate small bowl of hot milk and add milk powder.\n
-        4.Pour the milk powder mixture in the pan of sugared milk.\n
-        5.Stir them well. Boil it till the milk thickens.\n
-        6.Keep it aside to cool down completely.\n
-        7.After it has cool down, add vanilla essence to it and stir to completely dissolve with the milk.\n
-        8.Cover the bowl and keep it to freeze for about 4 hours.\n
+    <string name="halwa">
+        Ingredients for Halwa\n
+        1 cup wheat flour\n
+        3/4th cup clarified butter\n
+        1/2 cup sugar\n
+        2 cups water\n
+        dry fruits chopped\n\n
+
+        1.Take a deep pan and heat clarified butter in it.\n
+        2.Add wheat flour and roast it till it becomes pink-brown.\n
+        3.Add water and mix thoroughly.\n
+        4.Add sugar and cook for 10 mins.\n
+        5.Remove from flame and decorate with dry fruits.\n
+    </string>
+
+    <string name="beetroot_soup">
+        Ingredients for Beetroot Soup\n
+        2 whole beetroots- peeled and chopped roughly\n
+        1 small piece of ginger\n
+        1 tsp salt\n
+        1 tsp sugar\n
+        1 cup water\n
+        1 tsp cream for garnish\n\n
+
+        1.Add beetroot, water, ginger and salt.\n
+        2.pressure cook for 3 whistles.\n
+        3.Grind the cooked beetroot smoothly.\n
+        4.Add sugar and boil it for 5 minutes.\n
+        5.Soup is ready. decorate with fresh cream.\n
+    </string>
+
+    <string name="kadhai_paneer">
+        Ingredients Of Kadhai Paneer\n
+        200 gms paneer\n
+        1/2 tsp turmeric powder\n
+        1/2 tsp chilli powder\n
+        1/2 tsp garam masala powder\n
+        1/2 tsp coriander powder\n
+        1/2 tsp cumin seeds
+        2 tsp salt\n
+        1/2 tsp sugar\n
+        3 tbsp clarified butter\n
+        2 onions, chopped\n
+        2 tomatoes, chopped\n
+        1 small ginger piece\n
+        1/2 cup water\n\n
+
+        1. Heat clarified butter in a pan and add cumin seeds\n
+        2.Add chopped ginger and mix well\n
+        3.Make a smooth paste of tomatoes and onions\n
+        4.Add this paste in the pan and mix gently\n
+        5.Once you can see butter over the gravy, mix all spices\n
+        6.Cook for 5 more mins\n
+        7.Add water if required\n
+        8.Add paneer cubes and heat for 5 mins.\n
+    </string>
+
+    <string name="pav_bhaji">
+        Ingredients for Pav Bhaji\n
+        2 big potatoes peeled and chopped\n
+        2 medium onions finely chopped\n
+        3 tomatoes finely chopped\n
+        1 capsicum finely chopped\n
+        1 bowl chopped cauliflower\n
+        1/2 bowl peas\n
+        1/2 beetrrot peeled and chopped\n
+        1 carrot peeled and chopped\n
+        5-6 pieces garlic\n
+        4 tbsp butter\n
+        2 tbsp pav bhaji masala\n
+        salt to taste\n
+        turmeric powder, red chilly powder\n
+        coriander for garnish\n
+        readymade soft and fresh pav\n\n
+
+        1.In a pressure cooker, cook potatoes,carrot, beetroot, cauliflower and peas\n
+        2.In a big pan, add 3tbsp butter and let it heat\n
+        3.Add onion and garlic in the butter and saute\n
+        4.Now add tomatoes and capsicum and cook well\n
+        5.Now add all the spices as per taste and mix well\n
+        6.Add the cooked vegetables from cooker to pan and mix well\n
+        7.Cover the pan and cook for 10 more minutes\n
+        8.The bhaji is ready\n
+        9.Now take a flat pan, add butter and roast pav\n
+        10.Serve pav bhaji together.\n
+    </string>
+
+    <string name="rajma_rice">
+        Ingredients for Rajma\n
+        1 cup soaked rajma\n
+        1 onion chopped\n
+        1 tomato chopped\n
+        3-4 garlic peices\n
+        1 tbsp oil\n
+        2 tsp rajma masala\n
+        salt to taste\n
+        cumin seed, turmeric powder, chilli powder\n\n
+
+        1.Take a deep pan and heat oil\n
+        2.Add cumin seeds, chopped garlic and onion and fry it\n
+        3.Once onion is soft, add tomato and fry till tomato is soft\n
+        4.Add all the spices as per taste\n
+        5.Add boiled rajma and let it cook for 10 minutes\n
+        6.Serve with hot steamed rice\n
     </string>
 </resources>

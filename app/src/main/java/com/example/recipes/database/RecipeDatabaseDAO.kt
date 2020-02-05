@@ -2,6 +2,7 @@ package com.example.recipes.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
+import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 
@@ -16,4 +17,7 @@ interface RecipeDatabaseDAO {
 
     @Query("SELECT * FROM Recipes ORDER BY recipeId DESC")
     fun getAllRecipes(): LiveData<List<Recipes>>
+
+    @Query("Delete FROM Recipes where recipeName LIKE  :rname" )
+    fun deleteRecipe(rname: String)
 }

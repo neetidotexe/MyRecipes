@@ -14,4 +14,10 @@ class RecipeViewModel(application:Application):AndroidViewModel(application) {
     fun insert(recipes: Recipes){
         db.getRecipeDatabaseDao().addRecipe(recipes)
     }
+
+    fun deleteRecipe(rname: String){
+        db.getRecipeDatabaseDao().deleteRecipe(rname)
+
+
+    }
 }

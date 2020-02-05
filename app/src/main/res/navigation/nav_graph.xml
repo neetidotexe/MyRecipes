@@ -10,6 +10,8 @@
                 app:destination="@id/cakeRecipeFragment" app:enterAnim="@anim/nav_default_enter_anim"/>
         <action android:id="@+id/action_recipeListFragment_to_iceCreamRecipeFragment"
                 app:destination="@+id/iceCreamRecipeFragment" app:enterAnim="@anim/nav_default_enter_anim"/>
+        <action android:id="@+id/action_recipeListFragment_to_recipeDescriptionFragment"
+                app:destination="@id/recipeDescriptionFragment"/>
     </fragment>
 
     <fragment android:id="@+id/cakeRecipeFragment" android:name="com.example.recipes.NavigationComp.CakeRecipeFragment"
@@ -22,4 +24,12 @@
     <fragment android:id="@+id/showAddedRecipesFragment"
               android:name="com.example.recipes.NavigationComp.ShowAddedRecipesFragment"
               android:label="fragment_show_added_recipes" tools:layout="@layout/fragment_show_added_recipes"/>
+    <fragment android:id="@+id/recipeDescriptionFragment"
+              android:name="com.example.recipes.NavigationComp.RecipeDescriptionFragment"
+              android:label="fragment_recipe_description" tools:layout="@layout/fragment_recipe_description">
+        <argument android:name="dishName" app:argType="string"/>
+    </fragment>
+    <fragment android:id="@+id/deleteRecipeFragment"
+              android:name="com.example.recipes.NavigationComp.DeleteRecipeFragment"
+              android:label="DeleteRecipeFragment"/>
 </navigation>

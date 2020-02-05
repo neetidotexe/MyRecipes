@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
+import androidx.core.os.bundleOf
 import androidx.navigation.NavController
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recipes.R
@@ -13,15 +14,15 @@ import com.example.recipes.R
 class DishesAdapter(var context: Context, val findNavController: NavController) :
     RecyclerView.Adapter<DishesAdapter.ViewHolder>() {
 
-    private val dish_name = arrayOf("CAKE", "ICE CREAM", "PASTA", "PIZZA", "NOODLES", "BANANA PIE")
+    private val dish_name = arrayOf("BEETROOT SOUP","KADHAI PANEER","PAV BHAJI","RAJMA RICE","FRUIT CUSTARD","HALWA")
 
     private val dish_image = intArrayOf(
-        R.drawable.cake,
-        R.drawable.icecream,
-        R.drawable.pasta,
-        R.drawable.pizza,
-        R.drawable.noodles,
-        R.drawable.bananapie
+        R.drawable.soup,
+        R.drawable.kadhaipaneer,
+        R.drawable.pavbhaji,
+        R.drawable.rajmarice,
+        R.drawable.fruitcustard,
+        R.drawable.halwa
     )
 
 
@@ -39,11 +40,8 @@ class DishesAdapter(var context: Context, val findNavController: NavController) 
         viewHolder.imageDishPic.setImageResource(dish_image[i])
 
         viewHolder.buttonDishName.setOnClickListener {
-            if (viewHolder.buttonDishName.text.equals("CAKE")) {
-                findNavController.navigate(R.id.action_recipeListFragment_to_cakeRecipeFragment)
-            } else if (viewHolder.buttonDishName.text.equals("ICE CREAM")) {
-                findNavController.navigate(R.id.action_recipeListFragment_to_iceCreamRecipeFragment)
-            }
+            var bundle = bundleOf("dishname" to viewHolder.buttonDishName.text )
+            findNavController.navigate(R.id.action_recipeListFragment_to_recipeDescriptionFragment,bundle)
         }
     }
 

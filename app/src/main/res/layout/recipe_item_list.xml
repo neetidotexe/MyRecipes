@@ -21,10 +21,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="162dp"
                     android:id="@+id/image_dishPic"
-                    card_view:srcCompat="@drawable/cake"
+                    card_view:srcCompat="@drawable/soup"
                     android:scaleType="centerCrop"/>
             <Button
-                    android:text="CAKE"
+                    android:text="SOUP"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/button_dishName"
